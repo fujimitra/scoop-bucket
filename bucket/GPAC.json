@@ -1,6 +1,6 @@
 {
     "homepage": "http://gpac.io",
-    "version": "1.0",
+    "version": "0.1.0",
     "license": "LGPL-2.1",
     "architecture": {
         "64bit": {
@@ -37,7 +37,7 @@
                 "url": "https://download.tsi.telecom-paristech.fr/gpac/new_builds/win64/gpac-$version.0-$matchRev-master-x64.exe#/dl.7z"
             },
             "32bit": {
-                "url": "https://download.tsi.telecom-paristech.fr/gpac/new_builds/win32/gpac-$version.0-$matchRev-master-win32.exe#/dl.7z"
+                "url": "https://download.tsi.telecom-paristech.fr/gpac/new_builds/win32/gpac-$majorVersion.$minorVersion.$patchVersion-$matchRev-master-win32.exe#/dl.7z"
             }
         }
     }
