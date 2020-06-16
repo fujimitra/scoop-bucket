@@ -1,15 +1,15 @@
 {
     "homepage": "http://gpac.io",
-    "version": "1.0.0",
+    "version": "1.0",
     "license": "LGPL-2.1",
     "architecture": {
         "64bit": {
-            "url": "https://download.tsi.telecom-paristech.fr/gpac/new_builds/win64/gpac-1.0.0-rev0-g74780879-master-x64.exe#/dl.7z",
-            "hash": "191f6ca0646a4b2b0ef9570cdd9b243cc5e4107697777099171a17125bddbfc0"
+            "url": "https://download.tsi.telecom-paristech.fr/gpac/new_builds/win64/gpac-1.0.0-rev0-ga99c032b-master-x64.exe#/dl.7z",
+            "hash": "aecbf78ea9fb75f853edece45413c32611549ac04f24c477da600c2b1d3c4955"
         },
         "32bit": {
-            "url": "https://download.tsi.telecom-paristech.fr/gpac/new_builds/win32/gpac-1.0.0-rev0-g74780879-master-win32.exe#/dl.7z",
-            "hash": "e291569f3014d741bb18d3c957f1b7220307cc047bc2857e5e51132adb5301bb"
+            "url": "https://download.tsi.telecom-paristech.fr/gpac/new_builds/win32/gpac-1.0.0-rev0-ga99c032b-master-win32.exe#/dl.7z",
+            "hash": "35b78dc7f89735914b77ca010c199432492bbf7a31d9cf981eec0b8ed6eaa85a"
         }
     },
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$TEMP\", \"$dir\\Uninstall.exe\" -Force -Recurse",
@@ -34,10 +34,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.tsi.telecom-paristech.fr/gpac/new_builds/win64/gpac-$version-$matchRev-master-x64.exe#/dl.7z"
+                "url": "https://download.tsi.telecom-paristech.fr/gpac/new_builds/win64/gpac-$version.0-$matchRev-master-x64.exe#/dl.7z"
             },
             "32bit": {
-                "url": "https://download.tsi.telecom-paristech.fr/gpac/new_builds/win32/gpac-$version-$matchRev-master-win32.exe#/dl.7z"
+                "url": "https://download.tsi.telecom-paristech.fr/gpac/new_builds/win32/gpac-$version.0-$matchRev-master-win32.exe#/dl.7z"
             }
         }
     }
