@@ -1,0 +1,44 @@
+{
+    "version": "5.90",
+    "description": "Powerful archive manager",
+    "homepage": "https://rarlab.com/",
+    "license": {
+        "identifier": "Shareware",
+        "url": "https://www.win-rar.com/gtb_priv.html?&L=0"
+    },
+    "notes": "Set up context menu within settings window.",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.rarlab.com/rar/winrar-x64-590jp.exe#/dl.7z",
+            "hash": "15398fbd63d7e1eae182fa41fa1e8e502b5ae9252867bb57adaae7f39a1fdd06"
+        },
+        "32bit": {
+            "url": "https://www.rarlab.com/rar/wrar590jp.exe#/dl.7z",
+            "hash": "fdcc17880bf35eed9ef57e6f51ef6fed9232733bfe39fde76a7bf53c01d5cfb0"
+        }
+    },
+    "pre_install": "if (!(Test-Path \"$persist_dir\\rarreg.key\")) { New-Item \"$dir\\rarreg.key\" | Out-Null }",
+    "bin": [
+        "Rar.exe",
+        "UnRAR.exe",
+        "WinRAR.exe"
+    ],
+    "shortcuts": [
+        [
+            "WinRAR.exe",
+            "WinRAR"
+        ]
+    ],
+    "persist": "rarreg.key",
+    "checkver": "WinRAR and RAR ([\\d.]+) release",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.rarlab.com/rar/winrar-x64-$cleanVersionjp.exe#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://www.rarlab.com/rar/wrar$cleanVersionjp.exe#/dl.7z"
+            }
+        }
+    }
+}
