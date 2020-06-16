@@ -29,7 +29,7 @@
     ],
     "checkver": {
         "url": "https://gpac.wp.imt.fr/downloads/",
-        "regex": "The current GPAC release is <strong>([\\d.]+)[\\w\\W]+?gpac-([\\d.]+)-(?<rev>rev\\d-[\\d\\w]+)-master-win32.exe"
+        "regex": "The current GPAC release is ?gpac-([\\d.]+)-(?<rev>rev\\d-[\\d\\w]+)-master-win32.exe"
     },
     "autoupdate": {
         "architecture": {
@@ -37,7 +37,7 @@
                 "url": "https://download.tsi.telecom-paristech.fr/gpac/new_builds/win64/gpac-$version.0-$matchRev-master-x64.exe#/dl.7z"
             },
             "32bit": {
-                "url": "https://download.tsi.telecom-paristech.fr/gpac/new_builds/win32/gpac-$majorVersion.$minorVersion.$patchVersion-$matchRev-master-win32.exe#/dl.7z"
+                "url": "https://download.tsi.telecom-paristech.fr/gpac/new_builds/win32/gpac-$version.0-$matchRev-master-win32.exe#/dl.7z"
             }
         }
     }
