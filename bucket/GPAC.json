@@ -29,7 +29,7 @@
     ],
     "checkver": {
         "url": "https://gpac.wp.imt.fr/downloads/",
-        "regex": "The current GPAC release is ?gpac-([\\d.]+)-(?<rev>rev\\d-[\\d\\w]+)-master-win32.exe"
+        "regex": "The current GPAC release is [\\w\\W]+?gpac-([\\d.]+)-(?<rev>rev\\d-[\\d\\w]+)-master-win32.exe"
     },
     "autoupdate": {
         "architecture": {
