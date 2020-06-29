@@ -33,7 +33,6 @@
     "checkver": {
         "url": "https://www.winrarjapan.com/support/release-note",
         "re": "WinRAR バージョン([\\d.]+)",
-        "##": "https://www.rarlab.com",
         "##": "WinRAR and RAR ([\\d.]+) release"
     },
     "autoupdate": {
