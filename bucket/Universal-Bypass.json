@@ -6,7 +6,6 @@
     "hash": "57284fd375c0e3bb73a49208bc5db7ba82a2b4f6bf91185f1419875990a77cb1",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/Sainan/Universal-Bypass/releases/download/$version/Universal.Bypass.for.Chromium-based.browsers.zip",
-        "hash": ""
+        "url": "https://github.com/Sainan/Universal-Bypass/releases/download/$version/Universal.Bypass.for.Chromium-based.browsers.zip"
     }
 }
