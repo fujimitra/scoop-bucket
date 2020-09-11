@@ -1,6 +1,6 @@
 {
     "homepage": "https://github.com/jspenguin2017/uBlockProtector",
-    "version": "v15.0.0.204",
+    "version": "15.0.0.204",
     "license": "GPL-3.0",
     "url": "https://github.com/jspenguin2017/uBlockProtector/releases/download/$version/nano_defender_chromium_pro.zip",
     "hash": "",
