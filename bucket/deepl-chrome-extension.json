@@ -1,0 +1,12 @@
+{
+    "version": "1.0",
+    "homepage": "https://github.com/natsukium/deepl-chrome-extension",
+    "license": "Unlicense",
+    "url": "https://github.com/natsukium/deepl-chrome-extension/archive/v1.0.zip",
+    "hash": "07f4e6f088330687fb349dbd786d5689ebcaa2e56f48b52182b20bd14ffe6a28",
+    "extract_to": "deepl-chrome-extension",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/natsukium/deepl-chrome-extension/archive/v$version.zip"
+    }
+}
