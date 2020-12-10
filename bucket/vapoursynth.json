@@ -27,10 +27,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/vapoursynth/vapoursynth/releases/download/$version/VapourSynth64-Portable-$version.7z"
+                "url": "https://github.com/vapoursynth/vapoursynth/releases/download/R$version/VapourSynth64-Portable-R$version.7z"
             },
             "32bit": {
-                "url": "https://github.com/vapoursynth/vapoursynth/releases/download/$version/VapourSynth32-Portable-$version.7z"
+                "url": "https://github.com/vapoursynth/vapoursynth/releases/download/R$version/VapourSynth32-Portable-R$version.7z"
             }
         }
     }
