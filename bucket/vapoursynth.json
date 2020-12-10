@@ -1,6 +1,6 @@
 {
     "##": "Persists 64-bit release only",
-    "homepage": "http://www.vapoursynth.com/",
+    "homepage": "https://github.com/vapoursynth/vapoursynth",
     "license": "OFL-1.1",
     "version": "R51",
     "architecture": {
