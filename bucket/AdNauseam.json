@@ -4,7 +4,8 @@
     "license": "GPL-3.0 License",
     "url": "https://github.com/dhowe/AdNauseam/releases/download/v3.9.201/adnauseam-3.9.201.chromium.zip",
     "hash": "11ddc0d2f7bccd958870e331a16714320324708e4c62c4ac3659df43be2d4d94",
-    "extract_to": "AdNauseam",
+    "extract_dir": "adnauseam.chromium",
+    "extract_to": "adnauseam.chromium",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/dhowe/AdNauseam/releases/download/v$version/adnauseam-$version.chromium.zip"
