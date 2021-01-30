@@ -1,0 +1,13 @@
+{
+    "version": "1.0",
+    "homepage": "https://github.com/erickutcher/httpdownloader",
+    "license": "Unlicense",
+    "url": "https://github.com/erickutcher/httpdownloader/archive/CE_v1.0.1.8.zip",
+    "hash": "07f4e6f088330687fb349dbd786d5689ebcaa2e56f48b52182b20bd14ffe6a28",
+    "extract_dir": "HTTP_Downloader_Chrome_Extension",
+    "extract_to": "HTTP_Downloader_Chrome_Extension",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/erickutcher/httpdownloader/archive/CE_v$version.zip"
+    }
+}
