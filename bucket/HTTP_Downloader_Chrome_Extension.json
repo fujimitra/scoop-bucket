@@ -4,12 +4,13 @@
     "license": "Unlicense",
     "url": "https://github.com/erickutcher/httpdownloader/archive/CE_v1.0.1.8.zip",
     "hash": "8b630a6e8c4ca1dba9e34aa7a4f9a8f0cf44a887f0b8a7e678051fa5e845f4b0",
-    "extract_dir": "HTTP_Downloader_Chrome_Extension",
+    "extract_dir": "httpdownloader-CE_v1.0.1.8\HTTP_Downloader_Chrome_Extension",
     "checkver": {
         "url": "https://erickutcher.github.io/",
         "regex": "/github.com/erickutcher/httpdownloader/releases/download/CE_v([\\d.]+)/HTTP_Downloader_Chrome_Extension.crx"
     },
     "autoupdate": {
-        "url": "https://github.com/erickutcher/httpdownloader/archive/CE_v$version.zip"
+        "url": "https://github.com/erickutcher/httpdownloader/archive/CE_v$version.zip",
+        "extract_dir": "httpdownloader-CE_v$version\HTTP_Downloader_Chrome_Extension"
     }
 }
