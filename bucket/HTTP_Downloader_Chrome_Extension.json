@@ -12,6 +12,6 @@
     },
     "autoupdate": {
         "url": "https://github.com/erickutcher/httpdownloader/archive/CE_v$version.zip",
-        "extract_dir": "httpdownloader-CE_v$version\HTTP_Downloader_Chrome_Extension"
+        "extract_dir": "httpdownloader-CE_v$version/HTTP_Downloader_Chrome_Extension"
     }
 }
