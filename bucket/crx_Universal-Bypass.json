@@ -1,9 +1,9 @@
 {
-    "version": "13.15.1",
+    "version": "13.15.2",
     "homepage": "https://github.com/Sainan/Universal-Bypass",
     "license": "Unlicense",
-    "url": "https://github.com/Sainan/Universal-Bypass/releases/download/13.15.1/Universal.Bypass.for.Chromium-based.browsers.zip",
-    "hash": "d528bd41699b31c346fd9a5aef4fab2c6468a0eae15d760f00f56d92131ee756",
+    "url": "https://github.com/Sainan/Universal-Bypass/releases/download/13.15.2/Universal.Bypass.for.Chromium-based.browsers.zip",
+    "hash": "3bcb99bc61197e898e0e1eb2b4392a5914ce7f4d3097d89c588251cf23ffd329",
     "extract_to": "Universal.Bypass.for.Chromium-based.browsers",
     "checkver": "github",
     "autoupdate": {
