@@ -1,0 +1,15 @@
+{
+    "version": "nightly-2021-03-14",
+    "homepage": "https://ruffle.rs/",
+    "license": "Apache-2.0|MIT",
+    "url": "https://github.com/ruffle-rs/ruffle/releases/download/nightly-2021-03-14/ruffle_nightly_2021_03_14_extension.zip",
+    "hash": "d034dc7f4e74ea11115084699be2c7df8b67b50800e2a7b0158ae1e78da73361",
+    "extract_to": "ruffle",
+    "checkver": {
+        "url": "https://github.com/ruffle-rs/ruffle/releases",
+        "regex": "<span class=\"css-truncate-target\" style=\"max-width: 125px\">((\\w+)-(\\d+)-(\\d+)-(\\d+))</span>"
+    },
+    "autoupdate": {
+        "url": "https://github.com/ruffle-rs/ruffle/releases/download/$version/ruffle_$match2_$match3_$match4_$match5_extension.zip"
+    }
+}
