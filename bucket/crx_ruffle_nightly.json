@@ -1,9 +1,9 @@
 {
-    "version": "nightly-2021-03-24",
+    "version": "nightly-2021-03-25",
     "homepage": "https://ruffle.rs/",
     "license": "Apache-2.0|MIT",
-    "url": "https://github.com/ruffle-rs/ruffle/releases/download/nightly-2021-03-24/ruffle_nightly_2021_03_24_extension.zip",
-    "hash": "2dca2d746e15eacf58cc69decfdb2918d36cfa29e054cda44c6214c5410d08f7",
+    "url": "https://github.com/ruffle-rs/ruffle/releases/download/nightly-2021-03-25/ruffle_nightly_2021_03_25_extension.zip",
+    "hash": "df9a08a066cd0ff0a43877e1246835d27718053f560d5aa2a90260eb73e59a6b",
     "extract_to": "ruffle",
     "checkver": {
         "url": "https://github.com/ruffle-rs/ruffle/releases",
