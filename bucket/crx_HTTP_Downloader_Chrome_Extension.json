@@ -1,10 +1,10 @@
 {
-    "version": "1.0.1.9",
+    "version": "1.0.2.0",
     "homepage": "https://erickutcher.github.io/",
     "license": "Freeware",
-    "url": "https://github.com/erickutcher/httpdownloader/archive/CE_v1.0.1.9.zip",
-    "hash": "b4bdb9917759d3d47d93b1eef3441a9651bf079fa8afcafc98a522efe7b81a0f",
-    "extract_dir": "httpdownloader-CE_v1.0.1.9/HTTP_Downloader_Chrome_Extension",
+    "url": "https://github.com/erickutcher/httpdownloader/archive/CE_v1.0.2.0.zip",
+    "hash": "92f13f2b3c16f291cb82fa2d9321c7b9cbf244fadca71d7e78dd8eded57b4d2a",
+    "extract_dir": "httpdownloader-CE_v1.0.2.0/HTTP_Downloader_Chrome_Extension",
     "extract_to": "HTTP_Downloader_Chrome_Extension",
     "checkver": {
         "url": "https://erickutcher.github.io/",
