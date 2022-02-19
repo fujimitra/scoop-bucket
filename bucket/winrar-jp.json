@@ -1,7 +1,7 @@
 {
     "homepage": "https://rarlab.com/",
     "description": "Powerful archive manager",
-    "version": "6.02",
+    "version": "6.10",
     "license": {
         "identifier": "Shareware",
         "url": "https://www.win-rar.com/gtb_priv.html?&L=0"
@@ -9,12 +9,12 @@
     "notes": "Set up context menu within settings window.",
     "architecture": {
         "64bit": {
-            "url": "https://www.rarlab.com/rar/winrar-x64-602jp.exe#/dl.7z",
-            "hash": "b1291b72dd9e836cce28aa729adc7c2fa6828b8e9816a7110a560a51f24412e4"
+            "url": "https://www.rarlab.com/rar/winrar-x64-610jp.exe#/dl.7z",
+            "hash": "74be880cc92db85698ac58ad6d201ec1f8637de6ff2ebd4d40dcb0e1a3d1a3d8"
         },
         "32bit": {
-            "url": "https://www.rarlab.com/rar/wrar602jp.exe#/dl.7z",
-            "hash": "c489892a2b0844e085020e3ae9deb881643566ac2b3a06074a6f80ac0ef3fc11"
+            "url": "https://www.rarlab.com/rar/winrar-x32-610jp.exe#/dl.7z",
+            "hash": "26e2a562628d26d8b05dc67863d7b015c053ee31513fde7944219e8954720b3a"
         }
     },
     "pre_install": "if (!(Test-Path \"$persist_dir\\rarreg.key\")) { New-Item \"$dir\\rarreg.key\" | Out-Null }",
@@ -41,7 +41,7 @@
                 "url": "https://www.rarlab.com/rar/winrar-x64-$cleanVersionjp.exe#/dl.7z"
             },
             "32bit": {
-                "url": "https://www.rarlab.com/rar/wrar$cleanVersionjp.exe#/dl.7z"
+                "url": "https://www.rarlab.com/rar/winrar-x32-$cleanVersionjp.exe#/dl.7z"
             }
         }
     }
