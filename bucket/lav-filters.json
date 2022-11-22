@@ -1,15 +1,15 @@
 {
-    "version": "0.76.1",
+    "version": "0.77.1",
     "homepage": "https://github.com/Nevcairiel/LAVFilters",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Nevcairiel/LAVFilters/releases/download/0.76.1/LAVFilters-0.76.1-x64.zip",
-            "hash": "bf52325ba35dff7dd772bdfd8819206fb60ae6efa48f0f562e5e6daf3c07d8a4"
+            "url": "https://github.com/Nevcairiel/LAVFilters/releases/download/0.77.1/LAVFilters-0.77.1-x64.zip",
+            "hash": "d72252348992aebe376ff5b7dbdc37b4eecc30ecdeabbf6b8013e30ef3db66c6"
         },
         "32bit": {
-            "url": "https://github.com/Nevcairiel/LAVFilters/releases/download/0.76.1/LAVFilters-0.76.1-x86.zip",
-            "hash": "3973f6364c6b101353631025ed172dbaa28c2878c18fad45bcd98689aaf84594"
+            "url": "https://github.com/Nevcairiel/LAVFilters/releases/download/0.77.1/LAVFilters-0.77.1-x86.zip",
+            "hash": "f2243b615801bb417a497c951af36fae9a939a034c2cfbe9adcfbd23e39b0d9c"
         }
     },
     "checkver": "github",
