@@ -6,8 +6,8 @@
     "url": "https://github.com/Aleksoid1978/VideoRenderer/releases/download/0.6.7/MpcVideoRenderer-0.6.7.[0-9]{4,}.zip",
     "hash": "",
     "checkver": {
-        "url": "https://github.com/Aleksoid1978/VideoRenderer/releases/latest",
-        "regex": "(?<short>[\\d.]+)/MpcVideoRenderer-(?<version>[\\d.]+).zip"
+        "url": "https://github.com/Aleksoid1978/VideoRenderer/releases",
+        "regex": "(?<short>[\\d.]+)/MpcVideoRenderer-(?<version>[\\d.]+).*\\.zip"
     },
     "autoupdate": {
         "url": "https://github.com/Aleksoid1978/VideoRenderer/releases/download/$matchShort/MpcVideoRenderer-$matchVersion.zip"
