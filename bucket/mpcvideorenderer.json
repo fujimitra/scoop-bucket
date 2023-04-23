@@ -7,7 +7,7 @@
     "hash": "",
     "checkver": {
         "url": "https://github.com/Aleksoid1978/VideoRenderer/releases/latest",
-        "regex": "download/(?<short>[\\d.]+)/MpcVideoRenderer-(?<version>[\\d.]+).*\\.zip"
+        "regex": "[\\d.]+/MpcVideoRenderer-([\\d.]+).*\\.zip"
     },
     "autoupdate": {
         "url": "https://github.com/Aleksoid1978/VideoRenderer/releases/download/$matchShort/MpcVideoRenderer-$matchVersion.zip"
