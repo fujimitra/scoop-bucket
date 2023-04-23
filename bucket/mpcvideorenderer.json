@@ -10,6 +10,6 @@
         "regex": "MPC Video Renderer ([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/Aleksoid1978/VideoRenderer/releases/download/$matchShort/MpcVideoRenderer-$matchVersion.zip"
+        "url": "https://github.com/Aleksoid1978/VideoRenderer/releases/download/$matchHead/MpcVideoRenderer-$version.zip"
     }
 }
