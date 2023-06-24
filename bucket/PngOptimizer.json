@@ -1,6 +1,6 @@
 {
     "homepage": "http://psydk.org/pngoptimizer",
-    "version": "2.6",
+    "version": "2.7",
     "license": "GPL-2.0-only",
     "extract_dir": "PngOptimizer",
     "architecture": {
