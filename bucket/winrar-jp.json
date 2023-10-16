@@ -1,7 +1,7 @@
 {
     "homepage": "https://rarlab.com/",
     "description": "Powerful archive manager",
-    "version": "6.22",
+    "version": "6.24",
     "license": {
         "identifier": "Shareware",
         "url": "https://www.win-rar.com/gtb_priv.html?&L=0"
@@ -9,12 +9,12 @@
     "notes": "Set up context menu within settings window.",
     "architecture": {
         "64bit": {
-            "url": "https://www.rarlab.com/rar/winrar-x64-622jp.exe#/dl.7z",
-            "hash": "1abe6a41a41a2d7af855cfacf4b2fca8e2c767cb2ed7c90e5a40f3963f77a755"
+            "url": "https://www.rarlab.com/rar/winrar-x64-624jp.exe#/dl.7z",
+            "hash": "948b2aced8dcf664c6a321c0908408b5e3e0ebbef87eb84c69cc4bfd6186058d"
         },
         "32bit": {
-            "url": "https://www.rarlab.com/rar/winrar-x32-622jp.exe#/dl.7z",
-            "hash": "4abbfb03b4a029c2c49022c333d9ecaae1af2052bef29bfd37010ffd9921750c"
+            "url": "https://www.rarlab.com/rar/winrar-x32-624jp.exe#/dl.7z",
+            "hash": "43345d46ab63d1f16134e65e1192d8cfb17eaeaffa1a233b145e79d7ca7f36b5"
         }
     },
     "pre_install": "if (!(Test-Path \"$persist_dir\\rarreg.key\")) { New-Item \"$dir\\rarreg.key\" | Out-Null }",
